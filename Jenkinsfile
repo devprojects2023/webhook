@@ -1,6 +1,6 @@
 pipeline{
     agent Node1
-    label node1
+    labels 'node1'
     
     stages {
         stage('git checkout'){
